@@ -35,43 +35,33 @@
         <?php require "navigation.php"?>
 
         <div class="card-panel round z-depth-3 center">
-	  	    <span class="flow-text">Reports</span>
+	  	    <span class="flow-text">Advisor</span>
 	  	</div>
-
-	  	<div class="card-panel z-depth-3">
-	  		<div class="row center">
-	  			<div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href="commingsoon.php" class="black-text">Cash Flow</a>
-	  				</div>
-	  			</div>
-	  			<div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='commingsoon.php' class="black-text">Asset Management</a>
-	  				</div>
-	  			</div>
-	  			<div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='sommingsoon.php' class="black-text">Bank Reports</a>
-	  				</div>
-	  			</div>
-	  			<div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='commingsoon.php' class="black-text">Liabilities</a>
-	  				</div>
-	  			</div>
-                <div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='commingsoon.php' class="black-text">Risk Management</a>
-	  				</div>
-	  			</div>
-                <div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='commingsoon.php' class="black-text">Action Plan</a>
-	  				</div>
-	  			</div>
-	  		</div>
-	  	</div>
+        
+        <div class="container">
+            <table class="black-text">
+                <tbody>
+                    <tr>
+                        <td><a href='commingsoon.php'>Adivor Details</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href='commingsoon.php'>Reports</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href='commingsoon.php'>Suggestion</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href='commingsoon.php'>Performance</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href='commingsoon.php'>Chat</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href='commingsoon.php'>Rate</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
       	<script type="text/javascript" src="js/materialize.min.js"></script>
       	<script>M.AutoInit();</script>

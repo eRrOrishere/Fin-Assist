@@ -39,97 +39,57 @@
         <?php require "navigation.php"?>
 
 	  	<div class="carousel carousel-slider center z-depth-3">
-    		<div class="carousel-item grey darken-2 white-text" href="#one!">
-      			<img src="images/home.jpg" style="height:100%">
-      			<h2>Home</h2>
-    		</div>
-    		<img src="images/home.png">
-    		<div class="carousel-item  grey  darken-3 white-text" href="#two!">
-    		    <img src="images/1.jpg" style="height:100%">
-      			<h2>Register</h2>
-    		</div>
-    		<div class="carousel-item  grey darken-4 white-text" href="#three!">
-    		    <img src="images/home3.png" style="height:100%">
-      			<h2>Resources</h2>
-    		</div>
-    		<div class="carousel-item  grey darken-5 white-text" href="#four!">
-    		    <img src="images/home4.png" style="height:100%">
-      			<h2>Guide</h2>
-    		</div>
+    		<div class="carousel-item orange darken-1 white-text valign-wrapper" href="#one!">
+				<div class="container flow-text">
+					<p class="white-text"><h5>Budget tells us what we can’t afford, but it doesn't keep us from buying it.</h5></p>
+				</div>
+			</div>
+			<div class="carousel-item cyan white-text valign-wrapper" href="#one!">
+				<div class="container flow-text">
+					<p class="white-text"><h5>Under Capitalism, man exploits man. Under communism, it’s just the opposite</h5></p>
+				</div>
+			</div>
+			<div class="carousel-item green white-text valign-wrapper" href="#one!">
+				<div class="container flow-text">
+					<p class="white-text"><h5>Wealth Consist not in having great possessions, but in having few wants.</h5></p>
+				</div>
+			</div>
   		</div>
 
 	  	<div class="card-panel z-depth-3 center">
 	  		<span class="flow-text">EXPLORE</span><br><br>
 	  		<div class="row center">
 	  			<div class="col s6 ico_he">
-	  				<div class="card-panel">
-	  					<a href="certification.php" class="black-text">Advisor</a>
+	  				<div class="card-panel round">
+	  					<a href="advisor.php" class="black-text">Advisor</a>
 	  				</div>
 	  			</div>
 	  			<div class="col s6 ico_he">
-	  				<div class="card-panel">
+	  				<div class="card-panel round">
 	  					<a href='reports.php' class="black-text">Reports</a>
 	  				</div>
 	  			</div>
 	  			<div class="col s6 ico_he">
-	  				<div class="card-panel">
-	  					<a href='registration.php' class="black-text">Fin Education</a>
+	  				<div class="card-panel round">
+	  					<a href='commingsoon.php' class="black-text">Fin Education</a>
 	  				</div>
 	  			</div>
 	  			<div class="col s6 ico_he">
-	  				<div class="card-panel">
-	  					Calculators
+	  				<div class="card-panel round">
+					  <a href='commingsoon.php' class="black-text">Calculators</a>
 	  				</div>
 	  			</div>
-	  		</div>
-	  	</div>
-	  	
-	  	<div class="card-panel z-depth-3 center">
-	  	    <span class="flow-text">MEDICAL CARE</span><br><br>
-	  	    <div class="row">
-	  	        <a href="medicalinfo.php">
-	  	        <div class="col s6">
-	  	            <div class="row valign-wrapper">
-                        <img src="images/in.svg" alt="" class="responsive-img" style="height:100px"> <!-- notice the "circle" class -->
-                    </div>
-                    <div class="col s10">
-                        <span class="black-text">
-                            Know Your Medical Authority
-                        </span>
-                    </div>
-	  	        </div>
-	  	        </a>
-	  	        <a href="con.php">
-	  	        <div class="col s6">
-	  	            <div class="row center valign-wrapper">
-                        <img src="images/consultataion.jpg" alt="" class="circle responsive-img" style="height:100px"> <!-- notice the "circle" class -->
-                    </div>
-                    <div class="col s10">
-                        <span class="black-text">
-                            My Consultation
-                        </span>
-                    </div>
-	  	        </div>
-	  	        </a>
-	  	    </div>
-	  	</div>
-
-	  	<div class="card-panel z-depth-3 center">
-	  		<span class="flow-text">ABOUT</span><br><br>
-	  		<div class="conatiner">
-	  			I-CAN is a tool for objective evaluation of percentage of disability in a child and help in early screening of child. This app empowers parents, anganwadi karyakartas , school teachers and any other person contributing to a child’s upbringing. It allows these users to take the disability test by answering the particular disability related questions(based on the guidelines for the identification and.certification of persons with disability issued by Government of India.) It also provides a gateway to information for persons with disability and all concerned with this sector. It aims to provide critical medical care to the child with special needs and increase coordination between social welfare department and medical boards.
-
 	  		</div>
 	  	</div>
 
 	  	<div class="scrollmenu card-panel z-depth-3">
-	  		<a href="" class="ico_he">
+	  		<a href="commingsoon.php" class="ico_he">
 	  			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/1200px-Emblem_of_India.svg.png" height="75px">
 	  		</a>
-	  		<a href="" class="ico_he">
+	  		<a href="commingsoon.php" class="ico_he">
 	  			<img src="https://upload.wikimedia.org/wikipedia/en/4/46/Make_In_India.png" height="75px">
 	  		</a>
-	  		<a href="" class="ico_he">
+	  		<a href="commingsoon.php" class="ico_he">
 	  			<img src="https://upload.wikimedia.org/wikipedia/hi/d/d7/Swachh_Bharat_Abhiyan_logo.jpg" height="75px">
 	  		</a>
 	  	</div>

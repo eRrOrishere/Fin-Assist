@@ -7,6 +7,10 @@
     if (!isset ($_SESSION[$session_name]) || $_SESSION[$session_name] == "") {
         echo "<script type='text/javascript'> document.location = 'login.php'; </script>";
     }
+    if (isset($_GET['disability'])) {
+        $_SESSION['disability']=$_GET['disability'];
+        echo "<script type='text/javascript'> document.location = 'language.php'; </script>";
+    }
 ?>
 
 <!DOCTYPE html>
@@ -38,40 +42,32 @@
 	  	    <span class="flow-text">Reports</span>
 	  	</div>
 
-	  	<div class="card-panel z-depth-3">
-	  		<div class="row center">
-	  			<div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href="commingsoon.php" class="black-text">Cash Flow</a>
-	  				</div>
-	  			</div>
-	  			<div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='commingsoon.php' class="black-text">Asset Management</a>
-	  				</div>
-	  			</div>
-	  			<div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='sommingsoon.php' class="black-text">Bank Reports</a>
-	  				</div>
-	  			</div>
-	  			<div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='commingsoon.php' class="black-text">Liabilities</a>
-	  				</div>
-	  			</div>
-                <div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='commingsoon.php' class="black-text">Risk Management</a>
-	  				</div>
-	  			</div>
-                <div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='commingsoon.php' class="black-text">Action Plan</a>
-	  				</div>
-	  			</div>
-	  		</div>
-	  	</div>
+        <ul class="collapsible popout">
+            <li>
+                <div class="collapsible-header">Bank of India</div>
+                <div class="collapsible-body">
+                    <span>
+                        <b>Account Number : xxxxxxxxxxxxxxxx</b><br>
+                        <div class="row">
+                            <div class="col s12 valign-wrapper">
+                                <img src="images/simplepie.png" style="width:100%">
+                            </div>
+                            <div class="col s12">
+                            <?php require "graphdata.php";?>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">State bank of India</div>
+                <div class="collapsible-body"><span>Dynamic View Comming Soon !!!</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header">ICICI Bank</div>
+                <div class="collapsible-body"><span>Dynamic View Comming Soon !!!</span></div>
+            </li>
+        </ul>
 
       	<script type="text/javascript" src="js/materialize.min.js"></script>
       	<script>M.AutoInit();</script>

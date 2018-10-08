@@ -15,23 +15,23 @@
     }
     
     echo "
-        <nav class='".$_SESSION ["main_color"]." darken-5 white-text z-depth-5 center'>
+        <nav class='darken-5 white-text z-depth-5 center' style='background-image: linear-gradient(to bottom right, #42a5f5 , #7e57c2 );'>
     		<a href='#' data-target='slide-out' class='sidenav-trigger'><i class='material-icons'>menu</i></a>
     		<ul id='slide-out' class='sidenav left-align '>
     			<li>
-    				<div class='user-view ".$_SESSION ["main_color"]." darken-5 center'><br>
+    				<div class='user-view darken-5 center' style='background-image: linear-gradient(to bottom right, #42a5f5 , #7e57c2 );'><br>
 				      	<a href='#user'><i class='material-icons' style='font-size: 100px'>account_circle</i></a>
 				      	<a href='#name'><span class='white-text name'>".$row[0]." ".$row[1]."</span></a>
 				      	<a href='#email'><span class='white-text email'>".$row[2]."</span></a>
     				</div>
     			</li>
     			<li><a class='waves-effect' href='index.php'>Home</a></li>
-    			<li><a class='waves-effect' href='index.php'>Portfolio</a></li>
+				<li><a class='waves-effect' href='portfolio.php'>Portfolio</a></li>
+				<li><a class='waves-effect' href='bank.php'>My Bank</a></li>
 				<li><a class='waves-effect' href='index.php'>Financial Goals</a></li>
 				<li><a class='waves-effect' href='index.php'>Smart Contacts</a></li>
 				<li><a class='waves-effect' href='index.php'>Action Plan</a></li>
 				<li><a class='waves-effect' href='index.php'>Connect</a></li>
-				<li><a class='waves-effect' href='index.php'>Achievements</a></li>
 			    <li><div class='divider'></div></li>
 			    <li><a class='waves-effect' href='navigation.php?logout=true'>Logout</a></li>
   			</ul>

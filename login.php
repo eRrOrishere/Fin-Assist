@@ -32,16 +32,16 @@
       	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
       	<style type="text/css">
-      		body {font-family: 'Raleway', sans-serif;color: #263238;background-image: linear-gradient(to bottom right, WHITE, #e3f2fd );}
+      		body {font-family: 'Raleway', sans-serif;color: #263238;}
       		.round {border-radius: 50px;}
-	  		.loginpanel {width: 320px;top: 50%;left: 50%;position: absolute;transform: translate(-50%,-50%);background-image: linear-gradient(to bottom right, orange , white , green );}
+	  		.loginpanel {width: 320px;top: 50%;left: 50%;position: absolute;transform: translate(-50%,-50%);background-image: linear-gradient(to bottom right, #42a5f5 , #7e57c2 );}
 	  		a  {color: #424242;font-size: 12px}
       	</style>
 
     </head>
 
     <body>
-    	<div class="card-panel z-depth-5 loginpanel">
+    	<div class="card-panel z-depth-5 loginpanel round">
     		<div class="row center">
     			<img src="images/logo.png" style="height:150px; width:150px">
     			<br><h3>Login</h3>
@@ -49,16 +49,16 @@
     		<div class="container">
     			<form action="" method="POST" class="center">
 	    			<div class="row">
-	    				<div class="input-field col s12 ">
-	    					<input placeholder="Username" name="username" type="text" class="validate">
+	    				<div class="input-field col s12">
+	    					<input placeholder="Username" name="username" type="text" class="validate round">
 	    				</div>
 	    			</div>					
 					<div class="row">
-	    				<div class="input-field col s12 ">
+	    				<div class="input-field col s12">
 	    					<input placeholder="Password" name="password" type="password" class="validate">
 	    				</div>
 	    			</div>
-	    			<input type="submit" name="submit" value="Submit" class="waves-effect waves-light btn grey lighten-5 z-depth-2 ">
+	    			<input type="submit" name="submit" value="Submit" class="waves-effect waves-light btn grey lighten-5 z-depth-2 round">
     			</form>
     			<br>
     		</div>

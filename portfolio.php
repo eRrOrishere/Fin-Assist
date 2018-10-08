@@ -7,6 +7,15 @@
     if (!isset ($_SESSION[$session_name]) || $_SESSION[$session_name] == "") {
         echo "<script type='text/javascript'> document.location = 'login.php'; </script>";
     }
+    if (isset($_GET['disability'])) {
+        $_SESSION['disability']=$_GET['disability'];
+        echo "<script type='text/javascript'> document.location = 'language.php'; </script>";
+    }
+    session_start ();
+    $sql = "SELECT `fname`, `lname`, `contact` FROM `user` WHERE `username` = '".$_SESSION['user']."'";
+	$result = mysqli_query($conn,$sql);
+	$row = mysqli_fetch_row($result);
+	$_SESSION["name"]=$row[0]." ".$row[1];
 ?>
 
 <!DOCTYPE html>
@@ -35,43 +44,14 @@
         <?php require "navigation.php"?>
 
         <div class="card-panel round z-depth-3 center">
-	  	    <span class="flow-text">Reports</span>
-	  	</div>
-
-	  	<div class="card-panel z-depth-3">
-	  		<div class="row center">
-	  			<div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href="commingsoon.php" class="black-text">Cash Flow</a>
-	  				</div>
-	  			</div>
-	  			<div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='commingsoon.php' class="black-text">Asset Management</a>
-	  				</div>
-	  			</div>
-	  			<div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='sommingsoon.php' class="black-text">Bank Reports</a>
-	  				</div>
-	  			</div>
-	  			<div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='commingsoon.php' class="black-text">Liabilities</a>
-	  				</div>
-	  			</div>
-                <div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='commingsoon.php' class="black-text">Risk Management</a>
-	  				</div>
-	  			</div>
-                <div class="col s6 spanel">
-	  				<div class="card-panel round">
-	  					<a href='commingsoon.php' class="black-text">Action Plan</a>
-	  				</div>
-	  			</div>
-	  		</div>
-	  	</div>
+	  	    <span class="flow-text"><?php echo $row[0]." ".$row[1];?></span>
+        </div>
+          
+        <div class="container">
+            Occupation : Student (B.Tech C.S.E.)<br>
+            Address : Abc Street, Nagpur.<br>
+            <b>Income : 12000/-</b>
+        </div>
 
       	<script type="text/javascript" src="js/materialize.min.js"></script>
       	<script>M.AutoInit();</script>
