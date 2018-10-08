@@ -1,8 +1,8 @@
 <?php
-    $servername = "localhost";
-	$username = "id6837233_error";
-	$password = "error";
-	$database = "id6837233_skyhack";
+    $servername = "mysql.hostinger.com";
+	$username = "u633760913_error";
+	$password = "errorishere";
+	$database = "u633760913_finas";
 
 	$conn = mysqli_connect($servername, $username, $password, $database);
 
