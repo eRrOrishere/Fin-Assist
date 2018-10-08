@@ -59,57 +59,26 @@
   		</div>
 
 	  	<div class="card-panel z-depth-3 center">
-	  		<a href="disability.php" class="black-text"><span class="flow-text">DISABILITY TEST</span></a><br><br>
-	  		<div class="row scrollmenu">
-	  			<?php
-	  			    $sql = "SELECT id, name FROM `disability`";
-                    $result = mysqli_query($conn,$sql);
-                    while ($row = mysqli_fetch_row($result)) {
-    	  			    echo "
-            	  			<a href='index.php?disability=".$row[0]."'>
-            		  			<div class='row'>
-            		  				<div class='card-panel z-depth-3'>
-            		  					".$row[1]."
-            		  				</div>
-            		  			</div>
-            	  			</a>
-            	  		";
-                    }
-	  			?>
-	  		</div>
-	  	</div>
-
-	  	<div class="card-panel z-depth-3 center">
 	  		<span class="flow-text">EXPLORE</span><br><br>
 	  		<div class="row center">
 	  			<div class="col s6 ico_he">
 	  				<div class="card-panel">
-	  					<a href="certification.php" class="black-text">Certification Procedure</a>
+	  					<a href="certification.php" class="black-text">Advisor</a>
 	  				</div>
 	  			</div>
 	  			<div class="col s6 ico_he">
 	  				<div class="card-panel">
-	  					<a href='schemes.php' class="black-text">Schemes</a>
+	  					<a href='schemes.php' class="black-text">Reports</a>
 	  				</div>
 	  			</div>
 	  			<div class="col s6 ico_he">
 	  				<div class="card-panel">
-	  					<a href='registration.php' class="black-text">Disability Registeration</a>
+	  					<a href='registration.php' class="black-text">Fin Education</a>
 	  				</div>
 	  			</div>
 	  			<div class="col s6 ico_he">
 	  				<div class="card-panel">
-	  					RCI Programme
-	  				</div>
-	  			</div>
-	  			<div class="col s6 ico_he">
-	  				<div class="card-panel">
-	  					Educational Video
-	  				</div>
-	  			</div>
-	  			<div class="col s6 ico_he">
-	  				<div class="card-panel">
-	  					Disability card
+	  					Calculators
 	  				</div>
 	  			</div>
 	  		</div>
