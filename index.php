@@ -68,7 +68,7 @@
 	  			</div>
 	  			<div class="col s6 ico_he">
 	  				<div class="card-panel">
-	  					<a href='schemes.php' class="black-text">Reports</a>
+	  					<a href='reports.php' class="black-text">Reports</a>
 	  				</div>
 	  			</div>
 	  			<div class="col s6 ico_he">
