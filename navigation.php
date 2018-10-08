@@ -26,10 +26,12 @@
     				</div>
     			</li>
     			<li><a class='waves-effect' href='index.php'>Home</a></li>
-    			<li><a class='waves-effect' href='disability.php'>Start Test</a></li>
-    			<li><a class='waves-effect' href='record.php'>Records</a></li>
-    			<li><a class='waves-effect' href='applicationtrack.php'>Track Application</a></li>
-    			<li><a class='waves-effect' href='connect.php'>Connect</a></li>
+    			<li><a class='waves-effect' href='index.php'>Portfolio</a></li>
+				<li><a class='waves-effect' href='index.php'>Financial Goals</a></li>
+				<li><a class='waves-effect' href='index.php'>Smart Contacts</a></li>
+				<li><a class='waves-effect' href='index.php'>Action Plan</a></li>
+				<li><a class='waves-effect' href='index.php'>Connect</a></li>
+				<li><a class='waves-effect' href='index.php'>Achievements</a></li>
 			    <li><div class='divider'></div></li>
 			    <li><a class='waves-effect' href='navigation.php?logout=true'>Logout</a></li>
   			</ul>
