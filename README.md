@@ -56,3 +56,10 @@ personal reasons. Therefore , consumers need to understand and take step careful
 consumer . Incorrect payment details or technical problem can cause unwanted money
 transfer to different accounts. Therefore, high security with payment APIs are provided to
 avoid such conditions.
+
+#### Team
+
+Rahul Manusmare (Team Lead)
+Tushar Dahule
+Vipin Mankar
+Lokesh Agrawal
