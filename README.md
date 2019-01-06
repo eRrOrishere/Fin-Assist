@@ -59,7 +59,7 @@ avoid such conditions.
 
 #### Team
 
-Rahul Manusmare (Team Lead)
-Tushar Dahule
-Vipin Mankar
-Lokesh Agrawal
+Rahul Manusmare (Team Lead) <br/>
+Tushar Dahule <br/>
+Vipin Mankar <br/>
+Lokesh Agrawal <br/>
